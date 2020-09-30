@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "index.css"
+  ],
+  "names": [],
+  "mappings": "AAIA,OAHE,sCAOF,CAJA,KACE,YAAa,CAEb,wBACF,CAEA,MACE,UAAW,CACX,gBAAiB,CACjB,SACF,CACA,WACE,YAAa,CACb,kBAAmB,CACnB,cACF,CACA,MACE,oBAAqB,CAErB,WAAY,CACZ,gBAAiB,CACjB,iBAAkB,CAClB,eAAgB,CAChB,0BAAqC,CACrC,oBAAqB,CACrB,wBACF,CAEA,QACE,aAAyB,CACzB,iBAAkB,CAClB,WAAY,CACZ,cAAe,CACf,yBACF,CAEA,UACE,sBAAuB,CACvB,kBAAmB,CACnB,UAAW,CACX,gBACF",
+  "file": "main.e265cdf7.chunk.css",
+  "sourcesContent": [
+    "* {\n  font-family: Helvetica, Arial, sans-serif;\n}\n\nbody {\n  padding: 60px;\n  font-family: Helvetica, Arial, sans-serif;\n  background-color: rgb(44, 63, 63);\n}\n\ninput {\n  color: gray;\n  font-size: 1.2rem;\n  width: 50%;\n}\n.card-grid {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n.card {\n  align-content: center;\n\n  width: 300px;\n  border: 1px solid;\n  border-radius: 6px;\n  overflow: hidden;\n  box-shadow: 6px 6px rgb(59, 153, 153);\n  margin: 0 10px 10px 0;\n  background-color: rgb(133, 74, 74);\n}\n\n.card p {\n  color: rgb(197, 196, 196);\n  text-align: center;\n  padding: 5px;\n  font-size: 15px;\n  text-transform: capitalize;\n}\n\n.card img {\n  justify-content: center;\n  align-items: center;\n  width: auto;\n  max-height: 200px;\n}\n"
+  ]
+}
